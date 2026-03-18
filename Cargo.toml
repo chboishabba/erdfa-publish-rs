@@ -2,7 +2,14 @@
 name = "erdfa-publish"
 version = "0.1.0"
 edition = "2021"
-description = "Semantic UI components as CBOR shards for a11y-aware rendering"
+description = "Semantic UI components as CBOR shards with Conformal Field Tower text decomposition"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/meta-introspector/erdfa-publish"
+homepage = "https://github.com/meta-introspector/erdfa-publish"
+documentation = "https://github.com/meta-introspector/erdfa-publish"
+keywords = ["cbor", "semantic", "shards", "a11y", "cft"]
+categories = ["encoding", "data-structures", "accessibility"]
+readme = "README.md"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
